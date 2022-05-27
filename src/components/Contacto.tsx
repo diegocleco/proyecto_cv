@@ -17,9 +17,11 @@ import {
     useColorModeValue,
     VStack,
   } from '@chakra-ui/react';
-  import { BsPerson } from 'react-icons/bs';
-  import { FaGithub, FaLinkedin } from 'react-icons/fa';
-  import { MdEmail } from 'react-icons/md';
+import { BsPerson } from 'react-icons/bs';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
+import emailjs from 'emailjs-com';
+import { useState } from 'react';
   
   const confetti = {
     light: {
@@ -38,7 +40,9 @@ import {
   
   export default function Contacto() {
     const { hasCopied, onCopy } = useClipboard('diego.14.cle@gmail.com');
-  
+    const [title, setTitle] = useState('')
+
+    
     return (
       <Flex
         bg={useColorModeValue('gray.100', 'gray.900')}
@@ -131,7 +135,7 @@ import {
   
                       <InputGroup>
                         <InputLeftElement children={<BsPerson />} />
-                        <Input type="text" name="name" placeholder="Escribe tu nombre" />
+                        <Input onChange={event => setTitle(event.target.value)} type="text" name="name" placeholder="Escribe tu nombre" />
                       </InputGroup>
                     </FormControl>
   
@@ -143,6 +147,7 @@ import {
                           type="email"
                           name="email"
                           placeholder="Tu dirección de correo"
+                          onChange={event => setTitle(event.target.value)}
                         />
                       </InputGroup>
                     </FormControl>
@@ -155,10 +160,12 @@ import {
                         placeholder="Pon aquí tu mensaje"
                         rows={6}
                         resize="none"
+                        onChange={event => setTitle(event.target.value)}
                       />
                     </FormControl>
-  
+                      
                     <Button
+                    //onClick={envio}
                       colorScheme="blue"
                       bg="blue.400"
                       color="white"

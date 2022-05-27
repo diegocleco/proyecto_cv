@@ -12,7 +12,12 @@ import {
   Container,
   Image,
   Text,
-  StackDivider
+  StackDivider,
+  Drawer,
+  DrawerOverlay,
+  DrawerHeader,
+  DrawerContent,
+  DrawerBody
 } from '@chakra-ui/react';
 import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import logo from '../assets/logo.png'
@@ -52,10 +57,21 @@ export default function Nav() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-
+          
           <Box>
             <Image src={logo}></Image>
           </Box>
+
+          <Drawer placement='left' onClose={onClose} isOpen={isOpen}>
+              <DrawerOverlay />
+              <DrawerContent>
+                <DrawerHeader borderBottomWidth='1px'>Menú</DrawerHeader>
+                <DrawerBody>
+                  <NavBar />
+                </DrawerBody>
+              </DrawerContent>
+          </Drawer>
+
           <Container>
             <HStack spacing={8} alignItems={'center'}>
               <HStack
@@ -66,7 +82,7 @@ export default function Nav() {
               </HStack>
             </HStack>
           </Container>
-          
+
           <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
             <Flex alignItems={'center'}>
               <Stack direction={'row'} spacing={7}>
