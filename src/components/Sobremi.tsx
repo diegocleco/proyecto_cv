@@ -38,7 +38,7 @@ export default function Sobremi() {
 
           <GridItem colSpan={2}>
             <Box boxSize='sm'>
-              <Image borderRadius='full' width={[ '30%', '60%', '75%', '100%']} height={['30%', '60%', '75%', '100%']} src={fotocv} alt='Diego Clemente' />
+              <Image borderRadius='full' width={[ '50%', '60%', '75%', '100%']} height={['50%', '60%', '75%', '100%']} src={fotocv} alt='Diego Clemente' />
             </Box>
           </GridItem>
         </Grid>
