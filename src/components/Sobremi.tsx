@@ -8,6 +8,7 @@ import {
   GridItem
 } from '@chakra-ui/react';
 import fotocv from '../assets/fotocv.png'
+import './Sobremi.css'
 
 export default function Sobremi() {
 
@@ -38,7 +39,12 @@ export default function Sobremi() {
 
           <GridItem colSpan={2}>
             <Box boxSize='sm'>
-              <Image borderRadius='full' boxSize='350px' src={fotocv} alt='Diego Clemente' />
+              <Image borderRadius='full' width={[
+      '25%', // 0-30em
+      '65%', // 30em-48em
+      '75%', // 48em-62em
+      '100%', // 62em+
+    ]} boxSize='350px' src={fotocv} alt='Diego Clemente' />
             </Box>
           </GridItem>
         </Grid>
