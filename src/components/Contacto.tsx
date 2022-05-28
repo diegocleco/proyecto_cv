@@ -74,25 +74,7 @@ import { useState } from 'react';
                   align="center"
                   justify="space-around"
                   direction={{ base: 'row', md: 'column' }}>
-                  <Tooltip
-                    label={hasCopied ? 'Email copiado!' : 'Copiar Email'}
-                    closeOnClick={false}
-                    hasArrow>
-                    <IconButton
-                      aria-label="email"
-                      variant="ghost"
-                      size="lg"
-                      fontSize="3xl"
-                      icon={<MdEmail />}
-                      _hover={{
-                        bg: 'blue.500',
-                        color: useColorModeValue('white', 'gray.700'),
-                      }}
-                      onClick={onCopy}
-                      isRound
-                    />
-                  </Tooltip>
-  
+                    
                   <Link href="https://github.com/diegocleco">
                     <IconButton
                       aria-label="github"

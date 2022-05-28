@@ -32,31 +32,39 @@ export default function Conocimientos() {
                     <Tbody>
                     <Tr>
                         <Td>JavaScript</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>Java</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>PHP</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>TypeScript</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>HTML5</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='green'>Medio-Alto</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>CSS3</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='green'>Medio-Alto</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>SQL</Td>
                         <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
+                    </Tr>
+                    <Tr>
+                        <Td>Python</Td>
+                        <Td><Badge colorScheme='orange'>Bajo</Badge></Td>
+                    </Tr>
+                    <Tr>
+                        <Td>C#</Td>
+                        <Td><Badge colorScheme='orange'>Bajo</Badge></Td>
                     </Tr>
                     </Tbody>
                 </Table>
@@ -82,7 +90,7 @@ export default function Conocimientos() {
                     </Tr>
                     <Tr>
                         <Td>Bootstrap</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>VueJS</Td>
@@ -112,7 +120,7 @@ export default function Conocimientos() {
                     <Tbody>
                     <Tr>
                         <Td>Microsoft Office 365</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='green'>Medio-Alto</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>Dynamics 365</Td>
@@ -120,7 +128,7 @@ export default function Conocimientos() {
                     </Tr>
                     <Tr>
                         <Td>Power BI</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>SharePoint</Td>
@@ -128,7 +136,7 @@ export default function Conocimientos() {
                     </Tr>
                     <Tr>
                         <Td>OneDrive</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     </Tbody>
                 </Table>
@@ -146,7 +154,7 @@ export default function Conocimientos() {
                     <Tbody>
                     <Tr>
                         <Td>Windows</Td>
-                        <Td><Badge colorScheme='green'>Alto</Badge></Td>
+                        <Td><Badge colorScheme='yellow'>Medio</Badge></Td>
                     </Tr>
                     <Tr>
                         <Td>Linux</Td>

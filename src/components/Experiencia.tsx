@@ -13,7 +13,7 @@ import {
 const experiencia1 = {
     empresa: "Imagina Web & Mobile Technologies",
     anos: "Desde el 10/06/2020 hasta la actualidad",
-    tarea1: "Creación de cursos online",
+    tarea1: "Creación de cursos online:  React, Angular, JavaScript, Java, HTML5 y CSS3, Spring Boot, MongoDB, PHP MySQL y Ajax, Spark con Scala, Android",
     tarea2: "Resolución de dudas online",
     tarea3: "Corrección de ejercicios de los cursos online",
     tarea4: "Evaluación de los alumnos",

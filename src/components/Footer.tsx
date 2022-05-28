@@ -58,11 +58,7 @@ import {
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
           <Image src={logo} />
-          <Text>Web realizada con React y Chakra UI.</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Email'} href={'mailto:diego.14.cle@gmail.com'}>
-              <MdEmail />
-            </SocialButton>
             <SocialButton label={'Github'} href={'https://github.com/diegocleco'}>
               <FaGithub />
             </SocialButton>
