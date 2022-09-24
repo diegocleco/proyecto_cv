@@ -18,10 +18,12 @@ export const App = () => (
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
         </BrowserRouter>
         <Footer />
       </Box>
   </ChakraProvider>
 )
+/**
+ *  <Route path="/portfolio" element={<Portfolio />} />
+ */
