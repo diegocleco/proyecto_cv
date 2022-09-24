@@ -12,7 +12,7 @@ import {
 
 const experiencia1 = {
     empresa: "Imagina Web & Mobile Technologies",
-    anos: "Desde el 10/06/2020 hasta la actualidad",
+    anos: "Del 10/06/2020 al 13/08/2022",
     tarea1: "Creación de cursos online:  React, Angular, JavaScript, Java, HTML5 y CSS3, Spring Boot, MongoDB, PHP MySQL y Ajax, Spark con Scala, Android, Hacking Ético",
     tarea2: "Resolución de dudas online",
     tarea3: "Corrección de ejercicios de los cursos online",
@@ -37,6 +37,14 @@ const experiencia2 = {
     tareas: [ "Programación de la página web", "Mantenimiento y realización de copias de seguridad de la base de datos" ]
 }
 
+const experiencia3 = {
+    empresa: "Ubik Geospatial Solutions SL",
+    anos: "Del 03/09/2022 hasta la actualidad",
+    tarea1: "Programación de aplicaciones para clientes",
+    tarea2: "Mantenimiento y realización de copias de seguridad de la base de datos",
+    tareas: [ "Programación de la página web", "Mantenimiento y realización de copias de seguridad de la base de datos" ]
+}
+
 
 export default function Experiencia(){
     return (
@@ -46,6 +54,28 @@ export default function Experiencia(){
         </Stack>
         <Container>
             <Accordion allowToggle>
+            <AccordionItem>
+                    <h2>
+                    <AccordionButton>
+                        <Box flex='1' textAlign='left'>
+                            Fullstack Developer
+                        </Box>
+                        <AccordionIcon />
+                    </AccordionButton>
+                    </h2>
+                    <AccordionPanel pb={4}>
+                        <b>Empresa:</b> {experiencia3.empresa}
+                    </AccordionPanel>
+                    <AccordionPanel pb={4}>
+                        <b>Años:</b> {experiencia3.anos}
+                    </AccordionPanel>
+                    <AccordionPanel pb={4}>
+                        <b>Tareas realizadas:</b> <br />
+                        {experiencia3.tarea1} <br />
+                        {experiencia3.tarea2} <br />
+                    </AccordionPanel>
+                </AccordionItem>
+
                 <AccordionItem>
                     <h2>
                     <AccordionButton>

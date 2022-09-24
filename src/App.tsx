@@ -8,6 +8,7 @@ import Footer from "./components/Footer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Contacto from "./components/Contacto"
 import Inicio from "./components/Inicio"
+import Portfolio from "./components/Portfolio"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -17,6 +18,7 @@ export const App = () => (
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
         </BrowserRouter>
         <Footer />

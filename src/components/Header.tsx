@@ -37,6 +37,9 @@ const NavBar = () => (
     <RouteLink to="/">
       <NavLink text="Inicio" />
     </RouteLink>
+    <RouteLink to="/portfolio">
+      <NavLink text="Portfolio" />
+    </RouteLink>
     <RouteLink to="/contacto">
       <NavLink text="Contacto" />
     </RouteLink>
