@@ -22,16 +22,9 @@ export default function Sobremi() {
           <GridItem colSpan={2}>
               <Container maxW='md'>
                 <Text align={'justify'}>
-                  Tras unos años de experiencia, he 
-                  tomado la decisión de reorientar mi 
-                  carrera profesional con el ánimo de 
-                  continuar aprendiendo y, también, 
-                  aportar toda mi experiencia adquirida. 
-                  Considero que el cambio es un signo de 
-                  capacidad de superación y, por ello, 
-                  creo que siempre sería capaz de aportar 
-                  valor en la empresa en la que me 
-                  encuentre.
+                Soy un programador con 2 años de experiencia en el desarrollo de software. 
+                A lo largo de mi carrera, he tenido la oportunidad de participar en proyectos tanto a nivel nacional como europeo. 
+                Mi objetivo es unirme a una empresa donde pueda aportar mis conocimientos y seguir desarrollándome profesionalmente.
                 </Text>
               </Container>
           </GridItem>
