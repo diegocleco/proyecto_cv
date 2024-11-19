@@ -76,6 +76,9 @@ export default function Experiencia(){
                         <b>Tareas realizadas:</b> <br />
                         {experiencia3.tarea1} <br />
                         {experiencia3.tarea2} <br />
+                        {experiencia3.tarea3} <br />
+                        {experiencia3.tarea4} <br />
+                        {experiencia3.tarea5} <br />
                     </AccordionPanel>
                 </AccordionItem>
 
@@ -123,9 +126,6 @@ export default function Experiencia(){
                         <b>Tareas realizadas:</b> <br />
                         {experiencia2.tarea1} <br />
                         {experiencia2.tarea2} <br />
-                        {experiencia2.tarea3} <br />
-                        {experiencia2.tarea4} <br />
-                        {experiencia2.tarea5} <br />
                     </AccordionPanel>
                 </AccordionItem>
             </Accordion>
