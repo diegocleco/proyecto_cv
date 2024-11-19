@@ -40,9 +40,12 @@ const experiencia2 = {
 const experiencia3 = {
     empresa: "Ubik Geospatial Solutions SL",
     anos: "Del 03/09/2022 hasta la actualidad",
-    tarea1: "Programación de aplicaciones para clientes",
-    tarea2: "Mantenimiento y realización de copias de seguridad de la base de datos",
-    tareas: [ "Programación de la página web", "Mantenimiento y realización de copias de seguridad de la base de datos" ]
+    tarea1: "Diseño de la base de datos en PostgreSQL",
+    tarea2: "Implementación del backend en NodeJS",
+    tarea3: "Implementación del frontend en Angular",
+    tarea4: "Implementación de mapas y toda la lógica geoespacial con Geoserver",
+    tarea5: "Mantenimiento de servidores",
+    tareas: [ "Programación de software para proyectos a nivel europeo y nacional", "Mantenimiento y realización de copias de seguridad de la base de datos", "Creación de modelos de datos usando Postgres", "Desarrollo de frontend con Angular", "Desarrollo backend con NodeJS" ]
 }
 
 
